@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp-Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="container" >
+            <h1 style="font-family: monospace; margin-top: 15px; margin-bottom: 15px; color: #0D5370; font-weight: 700;">Temperature Converter</h1>
+            <h2 style="font-family: monospace; margin-top: 15px; margin-bottom: 15px; color: #0D5370; font-weight: 700;">Please enter any one of them!</h2>
+            <div class="content">
+            <div id="celcius" class="input">
+                <p style="font-size: 20px; font-family: monospace; color: #0D5370; font: bolder;">Temperature in Celcius</p>
+                <input type="text"  id="celcius-text" style="margin-left: 42px;" >
+
+            </div>
+            <div id="kelvin" class="input">
+                <p style="font-size: 20px; font-family: monospace; color: #0D5370;">Temperature in Kelvin</p>
+                <input type="text"  id="kelvin-text" style="margin-left: 53px;">
+
+            </div>
+            <div id="faren" class="input">
+                <p style="font-size: 20px; font-family: monospace; color: #0D5370;">Temperature in Farenheit</p>
+                <input type="text"  id="faren-text" style="margin-left: 20px;">
+
+            </div>
+            
+            </div>
+            <h2 id="visi" style="font-family: monospace; margin-top: 30px; margin-bottom: 15px; color: #0D5370; font-weight: 700; visibility: hidden; ">Please enter only one value!</h1>
+            <button id="convert" class="butt">Convert</button>
+            <button id="Reset" class="butt">Reset</button>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

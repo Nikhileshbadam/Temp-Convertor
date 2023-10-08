@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 700px;
+    height: 450px;
+    
+   
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    
+    
+    
+    
+
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(300deg, #e17810, #bbe826, #14a640);
+    
+    animation: gradient-animation 18s ease infinite;
+
+}
+
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    gap: 50px;
+    
+}
+input{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-family: monospace;
+    font-weight: 700;
+    color: #0D5370;
+    text-align: center;
+    background-color: transparent;
+
+    
+}
+::placeholder{
+    color: #0D5370;
+}
+.content{
+    margin-top: 50px;
+    margin-left: 23px;
+}
+.butt{
+ position: relative;
+ top: 5px;
+ right: 30px;
+ width: 80px;
+ height: 30px;
+ border: 3px solid white;
+ border-radius: 10px;
+ color: #0D5370;
+ font-family: monospace;
+ font-weight: 700;
+ margin-left: 50px;
+ margin-right: 50px;
+ cursor: pointer;
+ background-color: transparent;
+ 
+
+}
